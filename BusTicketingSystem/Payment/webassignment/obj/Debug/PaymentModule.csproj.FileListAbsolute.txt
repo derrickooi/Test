@@ -1,4 +1,0 @@
-C:\Users\User\Desktop\New folder (2)\Payment\webassignment\bin\PaymentModule.dll
-C:\Users\User\Desktop\New folder (2)\Payment\webassignment\bin\PaymentModule.pdb
-C:\Users\User\Desktop\New folder (2)\Payment\webassignment\obj\Debug\PaymentModule.dll
-C:\Users\User\Desktop\New folder (2)\Payment\webassignment\obj\Debug\PaymentModule.pdb
