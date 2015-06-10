@@ -29,7 +29,16 @@ namespace PaymentModule
             strInsert = "Insert Into Staff (StaffID,Name,icNumber, address,position,salary, contactNo, loginID, loginPSW,status) Values (@StaffID,@Name,@icNumber, @address,@position,@salary, @contactNo, @loginID, @loginPSW,@status)";
 
             da.InsertCommand = new SqlCommand(strInsert, conStaff);
-        ("@status", DropDownList2.SelectedValue);
+            da.InsertCommand.Parameters.AddWithValue("@StaffID", TextBox1.Text);
+            da.InsertCommand.Parameters.AddWithValue("@Name", TextBox2.Text);
+            da.InsertCommand.Parameters.AddWithValue("@icNumber", TextBox3.Text);
+            da.InsertCommand.Parameters.AddWithValue("@address", TextBox4.Text);
+            da.InsertCommand.Parameters.AddWithValue("@position", DropDownList1.SelectedValue);
+            da.InsertCommand.Parameters.AddWithValue("@salary", TextBox5.Text);
+            da.InsertCommand.Parameters.AddWithValue("@contactNo", TextBox6.Text);
+            da.InsertCommand.Parameters.AddWithValue("@loginID", TextBox7.Text);
+            da.InsertCommand.Parameters.AddWithValue("@loginPSW", TextBox8.Text);
+            da.InsertCommand.Parameters.AddWithValue("@status", DropDownList2.SelectedValue);
 
             conStaff.Open();
             da.InsertCommand.ExecuteNonQuery();
