@@ -1,0 +1,26 @@
+﻿<UserControl
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    xmlns:sdk="http://schemas.microsoft.com/winfx/2006/xaml/presentation/sdk" x:Class="PlsCan_Run.MainPage"
+    mc:Ignorable="d" Height="281" Width="454">
+
+    <Grid x:Name="LayoutRoot" Background="White">
+        <Button x:Name="btnAll" Content="Show" HorizontalAlignment="Left" Margin="310,207,0,0" VerticalAlignment="Top" Width="81" Click="btnAll_Click" Height="29"/>
+
+        <sdk:DataGrid x:Name="dgv" HorizontalAlignment="Left" Height="129" Margin="62,73,0,0" VerticalAlignment="Top" Width="329" AutoGenerateColumns="False">
+            <sdk:DataGrid.Columns>
+                <sdk:DataGridTextColumn Binding="{Binding routeID}" Header="Route ID"/>
+                <sdk:DataGridTextColumn Binding="{Binding routeFrom}" Header="Route From"/>
+                <sdk:DataGridTextColumn Binding="{Binding routeTo}" Header="Route To"/>
+                <sdk:DataGridTextColumn Binding="{Binding price}" Header="Price"/>
+            </sdk:DataGrid.Columns>
+        </sdk:DataGrid>
+        <Button x:Name="btnSearch" Content="Search" HorizontalAlignment="Left" Margin="310,39,0,0" VerticalAlignment="Top" Width="81" Click="Button_Click_1" Height="29"/>
+        <TextBox x:Name="txtsrch" HorizontalAlignment="Left" Height="30" Margin="136,38,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="169"/>
+        <sdk:Label HorizontalAlignment="Left" Height="36" Margin="62,32,0,0" VerticalAlignment="Top" Width="69" Content="Search : "/>
+        <Button Content="Back" HorizontalAlignment="Left" Margin="187,249,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_2"/>
+
+    </Grid>
+</UserControl>

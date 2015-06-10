@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8"?><TicketReservation>
+<ReservationID>RSV100216</ReservationID>
+<Date>8/21/2014</Date>
+<Time>1:30PM</Time>
+<From>Kuala Lumpur</From>
+<To>Penang</To>
+<SeatNumber>S15</SeatNumber>
+<TotalPassenger>1</TotalPassenger>
+<TotalFare>35.00</TotalFare>
+<BusNo>PLL779</BusNo>
+<Name>qwe</Name>
+<Phone>qwe</Phone>
+<IC>qwe</IC>
+</TicketReservation>

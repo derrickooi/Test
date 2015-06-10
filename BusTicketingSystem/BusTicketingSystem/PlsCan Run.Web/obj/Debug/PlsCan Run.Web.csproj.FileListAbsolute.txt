@@ -1,0 +1,13 @@
+c:\users\user\documents\visual studio 2012\Projects\PlsCan Run\PlsCan Run.Web\bin\PlsCan Run.Web.dll
+c:\users\user\documents\visual studio 2012\Projects\PlsCan Run\PlsCan Run.Web\bin\PlsCan Run.Web.pdb
+c:\users\user\documents\visual studio 2012\Projects\PlsCan Run\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.csprojResolveAssemblyReference.cache
+c:\users\user\documents\visual studio 2012\Projects\PlsCan Run\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.dll
+c:\users\user\documents\visual studio 2012\Projects\PlsCan Run\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\PlsCan Run - Copy\PlsCan Run.Web\bin\PlsCan Run.Web.dll
+C:\Users\User\Documents\Visual Studio 2012\Projects\PlsCan Run - Copy\PlsCan Run.Web\bin\PlsCan Run.Web.pdb
+C:\Users\User\Documents\Visual Studio 2012\Projects\PlsCan Run - Copy\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.csprojResolveAssemblyReference.cache
+C:\Users\User\Documents\Visual Studio 2012\Projects\PlsCan Run - Copy\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.dll
+C:\Users\User\Documents\Visual Studio 2012\Projects\PlsCan Run - Copy\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.pdb
+C:\Users\User\Desktop\BusTicketingSystem\BusTicketingSystem\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.csprojResolveAssemblyReference.cache
+C:\Users\User\Desktop\BusTicketingSystem\BusTicketingSystem\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.dll
+C:\Users\User\Desktop\BusTicketingSystem\BusTicketingSystem\PlsCan Run.Web\obj\Debug\PlsCan Run.Web.pdb
